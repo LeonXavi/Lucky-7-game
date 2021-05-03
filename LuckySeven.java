@@ -16,15 +16,14 @@ public class LuckySeven {
 		        
 		        
 		        do {
-		        //Lisätään rahan määritys Scanner-toiminnolla	
+		        //Adding money with Scanner	
 	            System.out.println("How much money do you have?");
 		        
-	            // Vaihe 2 rahan määritys = for (money = 5; money >=0; money--)
 	           
 	            
 		        for (money = scan.nextInt(); money >= 0; money--) {
 		        	   
-		        	//Printataan ulos kolme satunnaisnumeroa
+		        	//Printing out 3 random numbers
 		        	    
 		        	    randomNumber = random.nextInt(10)+ 1;
 				        randomNumber2 = random.nextInt(10)+ 1;
